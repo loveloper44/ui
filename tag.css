@@ -1,0 +1,12 @@
+
+.tag{
+    padding:4px;
+}
+.tag>a{
+    text-decoration: none;
+    color:#bb1542;
+}
+
+.tag>a::before{
+    content:'#';
+}

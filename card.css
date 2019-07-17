@@ -1,0 +1,58 @@
+.card{
+    padding:16px;
+    display:flex;
+    box-shadow: 2px 2px 5px #DEDEDE;
+    transition: all .2s ease-in-out;
+}
+
+.card:hover{
+    transform: scale(1.03);
+    cursor:pointer;
+    background-color:#444357;
+    color:white;
+}
+
+.card img{
+    width:91px;
+    height:91px;
+    margin-right:16px;
+}
+
+.card>.content{
+    overflow: hidden;
+}
+
+.card>.content>h2{
+    margin:0;
+    overflow:hidden;
+    text-overflow:ellipsis;
+    white-space:nowrap;
+}
+.card>.content>p{
+    margin-top:12px;
+    margin-bottom:0;
+    color:gray;
+    font-size: 1rem;
+    overflow:hidden;
+    text-overflow:ellipsis;
+    white-space:nowrap;
+    transition: all .2s ease-in-out;
+}
+
+.card:hover>.content>p{
+    color:white;
+}
+.card>.content>.url{   
+    margin-top:12px;
+}
+
+.card>.content>.url>a{    
+    font-size: 1rem;
+    text-decoration: none;
+    color:gray;
+    transition: all .2s ease-in-out;
+}
+
+.card:hover>.content>.url>a{  
+    color:white;
+}

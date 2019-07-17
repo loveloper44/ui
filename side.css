@@ -1,0 +1,20 @@
+.side-menu{
+            
+        }
+.side-menu>ul{
+    list-style: none;
+    padding:0;
+    margin:0;
+}
+.side-menu>ul>li {
+    color:#444357;
+    background-color:#FFFFFF;
+    border:1px solid #F2F2F4;
+    padding:16px;
+}
+.side-menu>ul>li:hover {
+    cursor:pointer;
+    color:white;
+    background-color:#444357;
+    border:1px solid #F2F2F4;
+}
